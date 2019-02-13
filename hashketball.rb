@@ -93,6 +93,6 @@ def big_shoe_rebounds
     game_hash.each do |location, team_data|
       sorted_array = team_data[:players].sort_by { |attribute, data| attribute[:shoe]}.reverse
       #creates new array with shoe sizes in deceding order
-      sorted_array[0][:rebounds]
+      return sorted_array[0][:rebounds]
     end
   end
