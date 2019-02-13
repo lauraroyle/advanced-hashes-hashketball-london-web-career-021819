@@ -98,7 +98,6 @@ def big_shoe_rebounds
           biggest_shoe_player = stats
         end
         if biggest_shoe_player[:shoe] < stats[:shoe]
-          puts "A bigger shoe has been found"
           biggest_shoe_player = stats
         end
       end
