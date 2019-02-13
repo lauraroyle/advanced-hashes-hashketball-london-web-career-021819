@@ -102,5 +102,5 @@ def big_shoe_rebounds
         end
       end
     end
-    biggest_shoe_player [:rebound]
+    biggest_shoe_player [:rebounds]
   end
